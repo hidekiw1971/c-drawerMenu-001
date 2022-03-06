@@ -48,7 +48,8 @@
 
 - JavaScript 不要！CSS だけでハンバーガーメニューを実装する方法
 - https://www.asobou.co.jp/blog/web/css-menu
--
+- chromeでチェックボックスが表示されない
+- https://concrete5-japan.org/community/forums/chat/post-9722/
 
 ## 更新履歴
 
