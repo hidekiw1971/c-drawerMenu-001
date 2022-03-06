@@ -1,7 +1,8 @@
 # compornent（共通部品）
 
 ## 概要
-- JavaScriptを使用せず、CSSだけでハンバーガーメニューを実装してます。
+
+- JavaScript を使用せず、CSS だけでハンバーガーメニューを実装してます。
 
 ## 仕様
 
@@ -9,7 +10,26 @@
 
 ## 注意事項
 
-- xxx
+- reset.scss の以下の部分を修正しないと input の checkbox が表示されません。
+- /_ フォームリセット _/
+  input,
+  button,
+  select,
+  textarea {
+  // -webkit-appearance: none; -> コメントにする
+  -moz-appearance: none;
+  // appearance: none; -> コメントにする
+  background: transparent;
+  border: none;
+  border-radius: 0;
+  font: inherit;
+  outline: none;
+  }
+- input[type="checkbox"],
+  input[type="radio"] {
+  // display: none; -> コメントにする
+  display: block; -> none -> block に変更する
+  }
 
 ## 使い方
 
@@ -17,22 +37,22 @@
 - css: src -> module -> xxx をコピペ。
 
 ## イメージ画像
+
 - xxx
 
 ## portfolio url:
 
-- https://css-md-0000.wtb.cfbx.jp/
-
+- https://css-md-0017.wtb.cfbx.jp/
 
 ## 参考にしたサイト
 
-- JavaScript不要！CSSだけでハンバーガーメニューを実装する方法
+- JavaScript 不要！CSS だけでハンバーガーメニューを実装する方法
 - https://www.asobou.co.jp/blog/web/css-menu
-- 
+-
 
 ## 更新履歴
 
-- 2022/mm/dd 初版 完了
+- 2022/3/7 初版 作成中(三本線まで完成)
 
 ## 環境・使い方
 
@@ -40,7 +60,6 @@
 - ターミナルを開き、 npm i とコマンドを入力する。
 - node_modules と package-lock.json が生成されるのを確認する。
 - 「 npx gulp 」とコマンドを入力すると動き出します。
-
 
 ## 備考
 

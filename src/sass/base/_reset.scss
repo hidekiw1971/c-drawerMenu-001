@@ -74,15 +74,14 @@ img:not([alt]) {
   filter: blur(10px);
 }
 
-
 /* フォームリセット */
 input,
 button,
 select,
 textarea {
-  -webkit-appearance: none;
+  // -webkit-appearance: none;
   -moz-appearance: none;
-  appearance: none;
+  // appearance: none;
   background: transparent;
   border: none;
   border-radius: 0;
@@ -96,7 +95,8 @@ textarea {
 
 input[type="checkbox"],
 input[type="radio"] {
-  display: none;
+  // display: none;
+  display: block;
 }
 
 input[type="submit"],
