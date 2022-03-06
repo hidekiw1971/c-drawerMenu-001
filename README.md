@@ -1,11 +1,11 @@
 # compornent（共通部品）
 
 ## 概要
-- ｘｘｘ
+- JavaScriptを使用せず、CSSだけでハンバーガーメニューを実装してます。
 
 ## 仕様
 
-- xxx
+-　<input type="checkbox" id="menu-btn-check">を使用して実装。
 
 ## 注意事項
 
@@ -26,7 +26,9 @@
 
 ## 参考にしたサイト
 
-- xxx
+- JavaScript不要！CSSだけでハンバーガーメニューを実装する方法
+- https://www.asobou.co.jp/blog/web/css-menu
+- 
 
 ## 更新履歴
 
