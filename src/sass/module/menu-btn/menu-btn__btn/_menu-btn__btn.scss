@@ -36,6 +36,7 @@
   border-radius: 3px;
   background-color: #fff;
   position: absolute;
+  transition: 0.1s;
 
   @include mq(md) {
   }
@@ -45,6 +46,7 @@
 
 .menu-btn__btn span:before {
   bottom: rem(15);
+  transition: 0.1s;
   @include mq(md) {
   }
   @include mq(xl) {
@@ -53,6 +55,7 @@
 
 .menu-btn__btn span:after {
   top: rem(15);
+  transition: 0.1s;
   @include mq(md) {
   }
   @include mq(xl) {
