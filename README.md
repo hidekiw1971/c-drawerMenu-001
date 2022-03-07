@@ -2,6 +2,8 @@
 
 ## 概要
 
+- drawer menu(ハンバーガーメニュ) ※input 使用タイプ
+
 - JavaScript を使用せず、CSS だけでハンバーガーメニューを実装してます。
 
 ## 仕様
@@ -9,6 +11,9 @@
 -　<input type="checkbox" id="menu-btn-check">を使用して実装。
 
 ## 注意事項
+
+- 「menu-btn\_\_check」と「menu-list」は同階層にセットしないと checkbox が反応しないので注意。
+- 「class="menu-list"」で position: fixed;を使用して要素を浮かせてるので、「class="menu-btn"」の height がなくなってます。見た目が気になったので height: 100vh;を設定してます。
 
 - reset.scss の以下の部分を修正しないと input の checkbox が表示されません。
 - /_ フォームリセット _/
@@ -34,7 +39,8 @@
 ## 使い方
 
 - 「copy start」から「copy end」をコピペ。
-- css: src -> module -> xxx をコピペ。
+- css: src -> module -> menu-btn をコピペ。
+- css: src -> module -> menu-list をコピペ。
 
 ## イメージ画像
 
@@ -48,11 +54,12 @@
 
 - JavaScript 不要！CSS だけでハンバーガーメニューを実装する方法
 - https://www.asobou.co.jp/blog/web/css-menu
-- chromeでチェックボックスが表示されない
+- chrome でチェックボックスが表示されない
 - https://concrete5-japan.org/community/forums/chat/post-9722/
 
 ## 更新履歴
 
+- 2022/3/7 初版 完成(sp、tb、pc、レスポンス対応済み)
 - 2022/3/7 初版 作成中(三本線まで完成)
 
 ## 環境・使い方
